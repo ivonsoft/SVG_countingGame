@@ -22,7 +22,7 @@ This project does not contain test folder
 Please feel free to download and test source code.
 This was used to have fun with child in educational activities.
 You can find demo on 
-* [I'm an inline-style link](http://ivonsoft.pl)
+* [link to site with demo](http://ivonsoft.pl)
 
 ## Authors
 
