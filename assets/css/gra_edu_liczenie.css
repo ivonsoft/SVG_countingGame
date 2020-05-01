@@ -1,0 +1,24 @@
+.graLiczenie_answers_text{stroke: green;stroke-width: 2;font-family: Arial;font-size: 54px;fill: white;}
+.graLiterki_text_header_odpowiedz{stroke: #000; fill: green ;stroke-width: 2;font-family : Arial;font-size: 74px;}
+.graLiczenie_answers{fill: transparent; stroke: #000;stroke-width: 0; border-radius: 5px;}
+.graLiczenieCircle_answers{fill: transparent; stroke:blue ;stroke-width: 0.1;}
+#Mainpath_punkty{stroke: blue;}
+#rysunek{opacity:0.4;}
+.graLiczenieCircle_fill{fill: red;}
+/*
+ * Pulse animation
+*/
+@-webkit-keyframes pulse_liczenie {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@keyframes pulse_liczenie {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.pulse_liczenie {
+    -webkit-animation-name: pulse_liczenie;
+    animation-name: pulse_liczenie;
+}
